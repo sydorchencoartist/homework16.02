@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+header {
+    height: 60px;
+    margin-bottom: 40px;
+}
+h1 {
+    text-align: center;
+    margin-right: 450px;
+    font-size: 60px;
+}
+/* Центрирование списка валют (начало)*/
+.container {
+    margin: 0 auto;
+    width: 50%
+    /* margin-left:630px; */
+}
+.container ul {
+    display: inline-block;
+
+}
+.container li {
+    justify-content: center;
+    font-size: 40px;
+
+}
+/* Центрирование списка валют (конец)*/
+h2 {
+    text-align: center;
+    font-size: 60px;  
+    margin: 40px;
+    margin-right: 430px;
+}
+/* ТАБЛИЦА*/
+table {
+    margin: 0 auto;
+    border: 1px solid black; 
+    border-spacing:5px; /* растояние между рамками */
+    /* border-collapse: collapse; Соеденить границы ячеек в одну линию */
+}
+th {
+    font-size: 40px; 
+    border: 1px solid black; /*  */
+    padding: 10px 30px;
+    
+}
+td {
+    font-size: 40px; 
+    border: 1px solid black; 
+    padding: 20px 30px;
+    
+}
+.nth-child { /* псевдокласс для изменения ширины колонки */
+    width: 30%;
+    justify-content: center;
+}
+.images-1 {
+    background-image: url(../images/america.jpg);
+    background-size: cover;
+}
+.images-2 {
+    background-image: url(../images/brytaniya.jpg);
+    background-size: cover;
+}
+.images-3 {
+    background-image: url(../images/japan.jpg);
+    background-size: cover;
+}
+.images-4 {
+    background-image: url(../images/georgia.jpg);
+    background-size: cover;
+}
